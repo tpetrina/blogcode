@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XNAOnWP8", "XNAOnWP8\XNAOnWP8\XNAOnWP8.csproj", "{870177E0-4AC4-49C5-AA1E-42A40D3ADAEF}"
+EndProject
+Project("{96E2B04D-8817-42C6-938A-82C39BA4D311}") = "XNAOnWP8Content", "XNAOnWP8\XNAOnWP8Content\XNAOnWP8Content.contentproj", "{1B1CD195-6000-4E2F-8BA5-ED76A46AD08A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Windows Phone = Debug|Windows Phone
+		Release|Windows Phone = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{870177E0-4AC4-49C5-AA1E-42A40D3ADAEF}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{870177E0-4AC4-49C5-AA1E-42A40D3ADAEF}.Debug|Windows Phone.Build.0 = Debug|Windows Phone
+		{870177E0-4AC4-49C5-AA1E-42A40D3ADAEF}.Debug|Windows Phone.Deploy.0 = Debug|Windows Phone
+		{870177E0-4AC4-49C5-AA1E-42A40D3ADAEF}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+		{870177E0-4AC4-49C5-AA1E-42A40D3ADAEF}.Release|Windows Phone.Build.0 = Release|Windows Phone
+		{870177E0-4AC4-49C5-AA1E-42A40D3ADAEF}.Release|Windows Phone.Deploy.0 = Release|Windows Phone
+		{1B1CD195-6000-4E2F-8BA5-ED76A46AD08A}.Debug|Windows Phone.ActiveCfg = Debug|Windows Phone
+		{1B1CD195-6000-4E2F-8BA5-ED76A46AD08A}.Release|Windows Phone.ActiveCfg = Release|Windows Phone
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -5,6 +5,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApplicationBarFontButtons",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ViewboxTesting", "ViewboxTesting\ViewboxTesting.csproj", "{A970B8AC-4F3C-48F2-9A84-471AC108CD48}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wp7.library", "wp7.library\wp7.library.csproj", "{7E125CE7-CB80-4EBC-876F-35B24D2125F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NavigateToLibraryPage", "NavigateToLibraryPage\NavigateToLibraryPage.csproj", "{A1FE3F19-208B-4A77-85D1-9558E5DD1C25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,28 @@ Global
 		{A970B8AC-4F3C-48F2-9A84-471AC108CD48}.Release|ARM.ActiveCfg = Release|Any CPU
 		{A970B8AC-4F3C-48F2-9A84-471AC108CD48}.Release|x64.ActiveCfg = Release|Any CPU
 		{A970B8AC-4F3C-48F2-9A84-471AC108CD48}.Release|x86.ActiveCfg = Release|Any CPU
+		{7E125CE7-CB80-4EBC-876F-35B24D2125F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E125CE7-CB80-4EBC-876F-35B24D2125F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E125CE7-CB80-4EBC-876F-35B24D2125F0}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{7E125CE7-CB80-4EBC-876F-35B24D2125F0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{7E125CE7-CB80-4EBC-876F-35B24D2125F0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7E125CE7-CB80-4EBC-876F-35B24D2125F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E125CE7-CB80-4EBC-876F-35B24D2125F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E125CE7-CB80-4EBC-876F-35B24D2125F0}.Release|ARM.ActiveCfg = Release|Any CPU
+		{7E125CE7-CB80-4EBC-876F-35B24D2125F0}.Release|x64.ActiveCfg = Release|Any CPU
+		{7E125CE7-CB80-4EBC-876F-35B24D2125F0}.Release|x86.ActiveCfg = Release|Any CPU
+		{A1FE3F19-208B-4A77-85D1-9558E5DD1C25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1FE3F19-208B-4A77-85D1-9558E5DD1C25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1FE3F19-208B-4A77-85D1-9558E5DD1C25}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{A1FE3F19-208B-4A77-85D1-9558E5DD1C25}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{A1FE3F19-208B-4A77-85D1-9558E5DD1C25}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A1FE3F19-208B-4A77-85D1-9558E5DD1C25}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A1FE3F19-208B-4A77-85D1-9558E5DD1C25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1FE3F19-208B-4A77-85D1-9558E5DD1C25}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1FE3F19-208B-4A77-85D1-9558E5DD1C25}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{A1FE3F19-208B-4A77-85D1-9558E5DD1C25}.Release|ARM.ActiveCfg = Release|Any CPU
+		{A1FE3F19-208B-4A77-85D1-9558E5DD1C25}.Release|x64.ActiveCfg = Release|Any CPU
+		{A1FE3F19-208B-4A77-85D1-9558E5DD1C25}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

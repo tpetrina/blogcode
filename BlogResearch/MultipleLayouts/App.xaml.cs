@@ -1,8 +1,13 @@
 ﻿using System;
+using System.Collections;
+using System.Collections.ObjectModel;
 using System.Diagnostics;
+using System.IO;
+using System.Resources;
 using System.Windows;
 using System.Windows.Markup;
 using System.Windows.Navigation;
+using System.Xml.Linq;
 using Microsoft.Phone.Controls;
 using Microsoft.Phone.Shell;
 using MultipleLayouts.Resources;
@@ -30,6 +35,8 @@ namespace MultipleLayouts
 
             // Phone-specific initialization
             InitializePhoneApplication();
+
+            RootFrame.UriMapper = new WideUriMapper();
 
             // Language display initialization
             InitializeLanguage();
@@ -121,15 +128,9 @@ namespace MultipleLayouts
 
             // Handle reset requests for clearing the backstack
             RootFrame.Navigated += CheckForResetNavigation;
-            RootFrame.Navigating += RootFrameOnNavigating;
 
             // Ensure we don't initialize again
             phoneApplicationInitialized = true;
-        }
-
-        private void RootFrameOnNavigating(object sender, NavigatingCancelEventArgs navigatingCancelEventArgs)
-        {
-            navigatingCancelEventArgs.Cancel = true;
         }
 
         // Do not add any additional code to this method

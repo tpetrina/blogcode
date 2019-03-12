@@ -44,11 +44,6 @@ namespace sample_resultobject
 
         static string SwitchExpression(string name)
         {
-            // var (id, createError) = Create("");
-
-            // if (createError != null)
-            // return createError;
-
             Console.Write($"{name}: ");
 
             return Create(name) switch
